@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Mono', monospace;
+}
+body{
+    background-color: var(--dark);
+    height: 100vh;
+    width: 100vW;
+    color: var(--ligth);
+}
+:root{
+    --principal-dark: #754080;
+    --principal: #B259B2; 
+    --principal-light:#E573D2;
+    --ligth: #E5DCE5;
+    --dark: #1A141A;
+    --secund: #66CCBB;
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+    padding: 2rem 0;
+}
+h2{
+    text-align: center;
+    margin: 2rem 0;
+}
+div.iniciar{
+    width: 100%;
+    height: 20rem;
+    border-radius: .5rem;
+    background-color: #101010;
+}
+#colorCycle{
+    width: 100%;
+    height: 20rem;
+    border-radius: .5rem;
+    background-color: var(--ligth) ;
+}
+button{
+    width: 10rem;
+    cursor: pointer;
+    background-color: var(--secund);
+    border: 0;
+    border-radius: .25rem;
+    transition: .2s;
+}
+input{
+    width: 10rem;
+    padding: 0 1rem;
+}
+#btnEinput{
+    display: flex;
+    justify-content: space-between;
+    height: 2rem;
+}
+.active{
+    background-color: var(--principal);
+}

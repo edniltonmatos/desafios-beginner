@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #232323;
+    height: 100vh;
+    width: 100vW;
+}
+div{
+    width: 400px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #332E33;
+    padding: .5rem;
+}
+p{
+    height: 4rem;
+    width: 100%;
+    background-color: #4D454D;
+}
+input{
+    width: 100%;
+}
+ul{
+    display: grid;
+    grid-template: "a b c d" ;
+    gap: 5px;
+}
+li{
+    list-style: none;
+    background-color: #665C66;
+    cursor: pointer;
+}
