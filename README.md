@@ -1,2 +1,1 @@
 ![cover beginner projects](/cover_bp.png)
-> Sabe quando você esquece aquela palavrinha ou quando está aprendendo uma coisa nova. Você tem que ir procurar no google as vezes atrás de apenas 5 caractéres. Crie esse repositório com o intuito de embrulhar tudo em um só lugar, de uma forma que quando eu pesquise não perca tanto tempo buscando "aquela palavra". Seja bem vindo a minha biblioteca pessoal.
