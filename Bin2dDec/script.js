@@ -1,24 +1,10 @@
-const num = document.querySelector("input")
-number = 0
-let result = 0
-let resp = document.querySelector("#res")
+const num = "111"
+const numArray = Array.from(num)
+let som = 0
+numArray.forEach(myFunction)
 
-num.addEventListener("input",updateValue)
-numArray = String(number).split("").map((number) => {
-    return Number(number)
-  })
-  
-arrayInvert = numArray.reverse()
-
-function bin2dec(item, index, arr){
-  result += item * 2**index
+function myFunction(item){
+    som += parseInt(item)
 }
 
-arrayInvert.forEach(bin2dec)
-
-function updateValue(e){
-  number = e.target.value
-}
-resp.innerHTML = result
-
-
+console.log(som)
