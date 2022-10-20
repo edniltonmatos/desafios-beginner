@@ -1,10 +1,24 @@
-const num = "111"
-const numArray = Array.from(num)
-let som = 0
-numArray.forEach(myFunction)
+let inp = document.getElementById("bin-string")
+let resp = document.getElementById("res")
 
-function myFunction(item){
-    som += parseInt(item)
+inp.addEventListener("keyup", Bin2Dec)
+
+function valicao(){
+    if(inp.value){
+
+    }else{
+
+    }
 }
-
-console.log(som)
+function Bin2Dec(){
+    let num = inp.value
+    let numArray = Array.from(num)
+    let som = 0
+    numArray.reverse()
+    numArray.forEach(myFunction)
+    
+    function myFunction(item,index){
+        som += Number((item) * 2**index)
+    }
+    resp.innerHTML = som
+}
