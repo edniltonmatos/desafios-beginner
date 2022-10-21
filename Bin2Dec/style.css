@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     color: #fff;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
 }
 
 body{
@@ -10,24 +12,24 @@ body{
     width: 100vW;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 main{
     display: flex;
     flex-direction: column;
-    margin-top: 6rem;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
     padding: 0 16px;
 }
-p{
-    font-size: 14px;
-}
+
 h1{
-    font-size: 24px;
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
+
 input{
     background-color: #232323;
     outline: none;
@@ -38,9 +40,11 @@ input{
     box-sizing: border-box;
 }
 #res{
-  font-size: 18px;
+    font-size: 1.5rem;
 }
 footer{
+    position: fixed;
+    bottom: 0px;
     display: flex;
     align-items: center;
     flex-direction: column;
