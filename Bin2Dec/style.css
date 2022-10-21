@@ -44,7 +44,7 @@ input{
     margin-bottom: 1rem;
 }
 footer{
-    position: fixed;
+    position: absolute;
     bottom: 0px;
     display: flex;
     align-items: center;
