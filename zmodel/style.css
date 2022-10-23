@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Cinzel Decorative', cursive;
+    color: #ffffff;
+    font-size: 8rem;
+    font-weight: 400;
+    line-height: 120%;
+
+}
+h2, p, button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 150%;
+}
+p{
+    margin-bottom: 4rem;
+}
+body{
+    background-image: url(./erro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+#blur{
+    background-color: rgba(13, 7, 7, 0.8);
+    backdrop-filter: blur(5px);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center{
+    text-align: center;
+}
+button{
+    padding: .5rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    border:.5px solid #ffffff
+}
+button:hover{
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+}
