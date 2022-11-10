@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #D9D9D9;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 2.5rem;
+    font-family: 'Cinzel', serif;
+    line-height: 120%;
+}
+p{
+    line-height: 150%;
+}
+body{
+    background: url(./img-border-radius.png) no-repeat center;
+    background-size: cover;
+}
+main{
+    background: rgba(19, 8, 8, 0.8);
+    backdrop-filter: blur(5px);
+    padding: 10rem 0rem;
+}
+#width{
+    margin: 0 auto;
+    max-width: 63rem;
+    width: 100%;
+}
+#width > p{
+    margin-top: 1rem;
+}
+#contain-text{
+    margin-top: 1rem;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #CC1B1B;
+}
+#contain-border{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:2rem;
+    margin-top: 4rem;
+}
+#box{
+    width: 100%;
+    padding-top: 100%;
+    background: #0B0606;
+    border: 1px solid #CC1B1B;
+    border-radius: 1000px;
+}
+svg{
+    padding: 0 10px;
+    box-sizing: content-box;
+}
+.ajuste{
+    display: flex;
+    gap: 2rem;
+}
+input[type="range"]{
+    width: 100%;
+}
