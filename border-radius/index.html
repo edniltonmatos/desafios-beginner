@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!--CSS links-->
     <link rel="stylesheet" href="./style.css">
 
@@ -13,10 +14,14 @@
 
     <!-- HTML Meta Tags -->
     <title>Border-radius Previewer | Ednilton Matos</title>
-    <meta name="description" content="Uma ferramenta que te ajuda a entender melhor como funciona os valores de raio da borda CSS.">
-    <meta name="keywords" content="HTML, CSS, JavaScript, border radius, border-radius, border radius Previewer, border radius preview, conversor de border radius, css border, ednilton, ednilton matos, desafios desenvolvimento, desafios dev, desafios florinpop">
+    <meta name="description"
+        content="Uma ferramenta que te ajuda a entender melhor como funciona os valores de raio da borda CSS.">
+    <meta name="keywords"
+        content="HTML, CSS, JavaScript, border radius, border-radius, border radius Previewer, border radius preview, conversor de border radius, css border, ednilton, ednilton matos, desafios desenvolvimento, desafios dev, desafios florinpop">
     <meta name="author" content="Ednilton Matos">
-    <link rel="shortcut icon" href="https://raw.githubusercontent.com/edniltonmatos/desafios-codelandia/main/desafio_01/src/images/fivicon.ico" type="image/x-icon">
+    <link rel="shortcut icon"
+        href="https://raw.githubusercontent.com/edniltonmatos/desafios-codelandia/main/desafio_01/src/images/fivicon.ico"
+        type="image/x-icon">
 
     <!-- Facebook Meta Tags 
     <meta property="og:url" content="https://ednilton-matos-border-radius.vercel.app/>"
@@ -34,100 +39,127 @@
     <meta name="twitter:image" content="https://github.com/edniltonmatos/desafios-beginner/blob/main/border-radius/Capa-border-radius.png?raw=true">
     -->
 </head>
+
 <body>
     <main>
         <div id="width">
             <h1>Border Radius View - html, css e JavaScript</h1>
-            <p>O Border Radius Previewer permite que o usuário visualizar como os valores de raio da borda CSS3 afetam um elemento. A propriedade border-radius pode ter vários valores alterados. Visualize a aparência da forma ao alterar esses valores. </p>
-            <p>Esse projeto foi baseado na ideia do repositorio 
-                <a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md" target="_blank" >App Ideas Collection.</a>
+            <p>O Border Radius Previewer permite que o usuário visualizar como os valores de raio da borda CSS3 afetam
+                um elemento. A propriedade border-radius pode ter vários valores alterados. Visualize a aparência da
+                forma ao alterar esses valores. </p>
+            <p>Esse projeto foi baseado na ideia do repositorio
+                <a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md"
+                    target="_blank">App Ideas Collection.</a>
             </p>
             <div id="contain-text">
                 <p>Quer ver como ficou o código?</p>
                 <p>Como eu fiz para criei esses conversores?</p>
                 <p>Acesse o link dessa pagina no github.
-                    <a href="https://github.com/edniltonmatos/desafios-beginner/tree/main/border-radius" target="_blank">Border Radius Previewer</a>
+                    <a href="https://github.com/edniltonmatos/desafios-beginner/tree/main/border-radius"
+                        target="_blank">Border Radius Previewer</a>
                 </p>
             </div>
             <div id="contain-border">
                 <div id="box">
-                    
+
                 </div>
-                <div>
-                    <div>
-                        <div class="ajuste">
+                <div id="container">
+                    <div class="ajuste">
+                        <div>
                             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_6_96)">
-                            <path d="M25.3333 6.66667L25.3333 4L28 4L28 6.66667L25.3333 6.66667ZM22.6667 6.66667L22.6667 4H20L20 6.66667H22.6667ZM17.3333 28V25.3333H14.6667V28H17.3333ZM22.6667 28V25.3333H20V28H22.6667ZM12 28V25.3333H9.33333V28H12ZM6.66667 28V25.3333H4V28H6.66667ZM6.66667 22.6667V20H4L4 22.6667H6.66667ZM28 12V9.33333L25.3333 9.33333V12H28ZM28 17.3333V14.6667H25.3333V17.3333H28ZM28 12V9.33333L25.3333 9.33333V12H28ZM28 22.6667V20H25.3333V22.6667H28ZM28 28V25.3333H25.3333V28L28 28ZM10.6667 4C6.98667 4 4 6.98667 4 10.6667L4 17.3333H6.66667L6.66667 10.6667C6.66667 8.46667 8.46667 6.66667 10.6667 6.66667H17.3333V4H10.6667Z" fill="#D9D9D9"/>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_96">
-                                    <rect width="32" height="32" fill="white" transform="translate(0 32) rotate(-90)"/>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <input type="range" class="slider">                    
+                                    <path
+                                        d="M25.3333 6.66667L25.3333 4L28 4L28 6.66667L25.3333 6.66667ZM22.6667 6.66667L22.6667 4H20L20 6.66667H22.6667ZM17.3333 28V25.3333H14.6667V28H17.3333ZM22.6667 28V25.3333H20V28H22.6667ZM12 28V25.3333H9.33333V28H12ZM6.66667 28V25.3333H4V28H6.66667ZM6.66667 22.6667V20H4L4 22.6667H6.66667ZM28 12V9.33333L25.3333 9.33333V12H28ZM28 17.3333V14.6667H25.3333V17.3333H28ZM28 12V9.33333L25.3333 9.33333V12H28ZM28 22.6667V20H25.3333V22.6667H28ZM28 28V25.3333H25.3333V28L28 28ZM10.6667 4C6.98667 4 4 6.98667 4 10.6667L4 17.3333H6.66667L6.66667 10.6667C6.66667 8.46667 8.46667 6.66667 10.6667 6.66667H17.3333V4H10.6667Z"
+                                        fill="#D9D9D9" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_6_96">
+                                        <rect width="32" height="32" fill="white" transform="translate(0 32) rotate(-90)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <input value="0" max="250" min="0" type="range">
+                        <input value="0" max="250" min="0" type="range" class="slider">
                     </div>
                     <div class="ajuste">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_6_117)">
-                                <path d="M25.3333 25.3333H28V28H25.3333V25.3333ZM25.3333 22.6667H28V20H25.3333V22.6667ZM4 17.3333H6.66667V14.6667H4V17.3333ZM4 22.6667H6.66667V20H4V22.6667ZM4 12H6.66667V9.33333H4V12ZM4 6.66667H6.66667V4H4V6.66667ZM9.33333 6.66667H12V4H9.33333V6.66667ZM20 28H22.6667V25.3333H20V28ZM14.6667 28H17.3333V25.3333H14.6667V28ZM20 28H22.6667V25.3333H20V28ZM9.33333 28H12V25.3333H9.33333V28ZM4 28H6.66667V25.3333H4V28ZM28 10.6667C28 6.98667 25.0133 4 21.3333 4H14.6667V6.66667H21.3333C23.5333 6.66667 25.3333 8.46667 25.3333 10.6667V17.3333H28V10.6667Z" fill="#D9D9D9"/>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_117">
-                                    <rect width="32" height="32" fill="white"/>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        <input type="range" class="slider"> 
+                        <div>
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_6_117)">
+                                    <path
+                                    d="M25.3333 25.3333H28V28H25.3333V25.3333ZM25.3333 22.6667H28V20H25.3333V22.6667ZM4 17.3333H6.66667V14.6667H4V17.3333ZM4 22.6667H6.66667V20H4V22.6667ZM4 12H6.66667V9.33333H4V12ZM4 6.66667H6.66667V4H4V6.66667ZM9.33333 6.66667H12V4H9.33333V6.66667ZM20 28H22.6667V25.3333H20V28ZM14.6667 28H17.3333V25.3333H14.6667V28ZM20 28H22.6667V25.3333H20V28ZM9.33333 28H12V25.3333H9.33333V28ZM4 28H6.66667V25.3333H4V28ZM28 10.6667C28 6.98667 25.0133 4 21.3333 4H14.6667V6.66667H21.3333C23.5333 6.66667 25.3333 8.46667 25.3333 10.6667V17.3333H28V10.6667Z"
+                                    fill="#D9D9D9" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_6_117">
+                                        <rect width="32" height="32" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <input value="0" max="50" min="0" type="range">
+                        <input value="0" max="50" min="0" type="range" class="slider">
                     </div>
                     <div class="ajuste">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_6_110)">
-                                <path d="M6.66667 25.3333V28H4V25.3333H6.66667ZM9.33333 25.3333V28H12V25.3333H9.33333ZM14.6667 4V6.66667H17.3333V4H14.6667ZM9.33333 4V6.66667H12V4H9.33333ZM20 4V6.66667H22.6667V4H20ZM25.3333 4V6.66667H28V4H25.3333ZM25.3333 9.33333V12H28V9.33333H25.3333ZM4 20V22.6667H6.66667V20H4ZM4 14.6667V17.3333H6.66667V14.6667H4ZM4 20V22.6667H6.66667V20H4ZM4 9.33333V12H6.66667V9.33333H4ZM4 4V6.66667H6.66667V4H4ZM21.3333 28C25.0133 28 28 25.0133 28 21.3333V14.6667H25.3333V21.3333C25.3333 23.5333 23.5333 25.3333 21.3333 25.3333H14.6667V28H21.3333Z" fill="#D9D9D9"/>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_110">
-                                    <rect width="32" height="32" fill="white" transform="translate(32) rotate(90)"/>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        
-                        <input type="range" class="slider"> 
+                        <div>
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_6_110)">
+                                    <path
+                                    d="M6.66667 25.3333V28H4V25.3333H6.66667ZM9.33333 25.3333V28H12V25.3333H9.33333ZM14.6667 4V6.66667H17.3333V4H14.6667ZM9.33333 4V6.66667H12V4H9.33333ZM20 4V6.66667H22.6667V4H20ZM25.3333 4V6.66667H28V4H25.3333ZM25.3333 9.33333V12H28V9.33333H25.3333ZM4 20V22.6667H6.66667V20H4ZM4 14.6667V17.3333H6.66667V14.6667H4ZM4 20V22.6667H6.66667V20H4ZM4 9.33333V12H6.66667V9.33333H4ZM4 4V6.66667H6.66667V4H4ZM21.3333 28C25.0133 28 28 25.0133 28 21.3333V14.6667H25.3333V21.3333C25.3333 23.5333 23.5333 25.3333 21.3333 25.3333H14.6667V28H21.3333Z"
+                                    fill="#D9D9D9" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_6_110">
+                                        <rect width="32" height="32" fill="white" transform="translate(32) rotate(90)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+                        <input value="0" max="250" min="0" type="range">
+                        <input value="0" max="250" min="0" type="range" class="slider">
                     </div>
                     <div class="ajuste">
-                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <g clip-path="url(#clip0_6_103)">
-                                <path d="M6.66667 6.66667H4V4H6.66667V6.66667ZM6.66667 9.33333H4L4 12H6.66667L6.66667 9.33333ZM28 14.6667H25.3333V17.3333H28V14.6667ZM28 9.33333H25.3333V12H28L28 9.33333ZM28 20H25.3333V22.6667H28V20ZM28 25.3333H25.3333V28H28V25.3333ZM22.6667 25.3333H20V28H22.6667V25.3333ZM12 4L9.33333 4V6.66667L12 6.66667V4ZM17.3333 4H14.6667V6.66667H17.3333V4ZM12 4L9.33333 4V6.66667L12 6.66667V4ZM22.6667 4H20V6.66667H22.6667V4ZM28 4H25.3333V6.66667H28V4ZM4 21.3333C4 25.0133 6.98667 28 10.6667 28H17.3333V25.3333H10.6667C8.46667 25.3333 6.66667 23.5333 6.66667 21.3333V14.6667H4V21.3333Z" fill="#D9D9D9"/>
-                            </g>
-                            <defs>
-                                <clipPath id="clip0_6_103">
-                                    <rect width="32" height="32" fill="white" transform="translate(32 32) rotate(180)"/>
-                                </clipPath>
-                            </defs>
-                        </svg>
-                        
-                        <input type="range" class="slider"> 
+                        <div>
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_6_103)">
+                                    <path
+                                    d="M6.66667 6.66667H4V4H6.66667V6.66667ZM6.66667 9.33333H4L4 12H6.66667L6.66667 9.33333ZM28 14.6667H25.3333V17.3333H28V14.6667ZM28 9.33333H25.3333V12H28L28 9.33333ZM28 20H25.3333V22.6667H28V20ZM28 25.3333H25.3333V28H28V25.3333ZM22.6667 25.3333H20V28H22.6667V25.3333ZM12 4L9.33333 4V6.66667L12 6.66667V4ZM17.3333 4H14.6667V6.66667H17.3333V4ZM12 4L9.33333 4V6.66667L12 6.66667V4ZM22.6667 4H20V6.66667H22.6667V4ZM28 4H25.3333V6.66667H28V4ZM4 21.3333C4 25.0133 6.98667 28 10.6667 28H17.3333V25.3333H10.6667C8.46667 25.3333 6.66667 23.5333 6.66667 21.3333V14.6667H4V21.3333Z"
+                                    fill="#D9D9D9" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_6_103">
+                                        <rect width="32" height="32" fill="white"
+                                        transform="translate(32 32) rotate(180)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </div>
+
+                        <input value="0" max="250" min="0" type="range">
+                        <input value="0" max="250" min="0" type="range" class="slider">
+                    </div>
+                    <label class="container"> 
+                        <p>8 bordas</p>
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                      </label>
+                    <div id="text-area">
+                        <div>
+                            <p>border-radius: 0px, 0px, 0px, 0px;</p>
+                        </div>
+                        <Button>
+                            <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M13.125 11.25H7.875C7.66875 11.25 7.5 11.4187 7.5 11.625V12.375C7.5 12.5813 7.66875 12.75 7.875 12.75H13.125C13.3313 12.75 13.5 12.5813 13.5 12.375V11.625C13.5 11.4187 13.3313 11.25 13.125 11.25ZM13.125 15.75H7.875C7.66875 15.75 7.5 15.9187 7.5 16.125V16.875C7.5 17.0813 7.66875 17.25 7.875 17.25H13.125C13.3313 17.25 13.5 17.0813 13.5 16.875V16.125C13.5 15.9187 13.3313 15.75 13.125 15.75ZM5.25 10.875C4.62656 10.875 4.125 11.3766 4.125 12C4.125 12.6234 4.62656 13.125 5.25 13.125C5.87344 13.125 6.375 12.6234 6.375 12C6.375 11.3766 5.87344 10.875 5.25 10.875ZM5.25 15.375C4.62656 15.375 4.125 15.8766 4.125 16.5C4.125 17.1234 4.62656 17.625 5.25 17.625C5.87344 17.625 6.375 17.1234 6.375 16.5C6.375 15.8766 5.87344 15.375 5.25 15.375ZM15.75 3H12C12 1.34531 10.6547 0 9 0C7.34531 0 6 1.34531 6 3H2.25C1.00781 3 0 4.00781 0 5.25V21.75C0 22.9922 1.00781 24 2.25 24H15.75C16.9922 24 18 22.9922 18 21.75V5.25C18 4.00781 16.9922 3 15.75 3ZM9 2.25C9.4125 2.25 9.75 2.5875 9.75 3C9.75 3.4125 9.4125 3.75 9 3.75C8.5875 3.75 8.25 3.4125 8.25 3C8.25 2.5875 8.5875 2.25 9 2.25ZM15.75 21.375C15.75 21.5813 15.5813 21.75 15.375 21.75H2.625C2.41875 21.75 2.25 21.5813 2.25 21.375V5.625C2.25 5.41875 2.41875 5.25 2.625 5.25H4.5V6.75C4.5 7.1625 4.8375 7.5 5.25 7.5H12.75C13.1625 7.5 13.5 7.1625 13.5 6.75V5.25H15.375C15.5813 5.25 15.75 5.41875 15.75 5.625V21.375Z" fill="#D9D9D9"/>
+                                </svg>                                                               
+                        </Button> 
                     </div>
                 </div>
-                <label for="teste">
-                    <input type="checkbox" name="check" id="check">
-                    8 bordas
-                </label>
-                <label for="teste">
-                    <textarea name="copy" id="copy" cols="30" rows="10">border-radius: 0px, 0px, 0px, 0px;</textarea>
-                    <svg width="28" height="34" viewBox="0 0 28 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <mask id="path-1-inside-1_6_151" fill="white">
-                            <path d="M0 4C0 1.79086 1.79086 0 4 0H24C26.2091 0 28 1.79086 28 4V30C28 32.2091 26.2091 34 24 34H4C1.79086 34 0 32.2091 0 30V4Z"/>
-                        </mask>
-                        <path d="M0 4C0 1.79086 1.79086 0 4 0H24C26.2091 0 28 1.79086 28 4V30C28 32.2091 26.2091 34 24 34H4C1.79086 34 0 32.2091 0 30V4Z" fill="#0B0606"/>
-                        <path d="M17.125 15.25H11.875C11.6687 15.25 11.5 15.4187 11.5 15.625V16.375C11.5 16.5813 11.6687 16.75 11.875 16.75H17.125C17.3313 16.75 17.5 16.5813 17.5 16.375V15.625C17.5 15.4187 17.3313 15.25 17.125 15.25ZM17.125 19.75H11.875C11.6687 19.75 11.5 19.9187 11.5 20.125V20.875C11.5 21.0812 11.6687 21.25 11.875 21.25H17.125C17.3313 21.25 17.5 21.0812 17.5 20.875V20.125C17.5 19.9187 17.3313 19.75 17.125 19.75ZM9.25 14.875C8.62656 14.875 8.125 15.3766 8.125 16C8.125 16.6234 8.62656 17.125 9.25 17.125C9.87344 17.125 10.375 16.6234 10.375 16C10.375 15.3766 9.87344 14.875 9.25 14.875ZM9.25 19.375C8.62656 19.375 8.125 19.8766 8.125 20.5C8.125 21.1234 8.62656 21.625 9.25 21.625C9.87344 21.625 10.375 21.1234 10.375 20.5C10.375 19.8766 9.87344 19.375 9.25 19.375ZM19.75 7H16C16 5.34531 14.6547 4 13 4C11.3453 4 10 5.34531 10 7H6.25C5.00781 7 4 8.00781 4 9.25V25.75C4 26.9922 5.00781 28 6.25 28H19.75C20.9922 28 22 26.9922 22 25.75V9.25C22 8.00781 20.9922 7 19.75 7ZM13 6.25C13.4125 6.25 13.75 6.5875 13.75 7C13.75 7.4125 13.4125 7.75 13 7.75C12.5875 7.75 12.25 7.4125 12.25 7C12.25 6.5875 12.5875 6.25 13 6.25ZM19.75 25.375C19.75 25.5812 19.5813 25.75 19.375 25.75H6.625C6.41875 25.75 6.25 25.5812 6.25 25.375V9.625C6.25 9.41875 6.41875 9.25 6.625 9.25H8.5V10.75C8.5 11.1625 8.8375 11.5 9.25 11.5H16.75C17.1625 11.5 17.5 11.1625 17.5 10.75V9.25H19.375C19.5813 9.25 19.75 9.41875 19.75 9.625V25.375Z" fill="#D9D9D9"/>
-                        <path d="M0 0H28H0ZM29 30C29 32.7614 26.7614 35 24 35H5C2.23858 35 0 32.7614 0 30C0 31.6569 1.79086 33 4 33H24C25.6569 33 27 31.6569 27 30H29ZM0 34V0V34ZM24 0C26.7614 0 29 2.23858 29 5V30C29 32.7614 26.7614 35 24 35V33C25.6569 33 27 31.6569 27 30V4C27 1.79086 25.6569 0 24 0Z" fill="#D9D9D9" fill-opacity="0.6" mask="url(#path-1-inside-1_6_151)"/>
-                    </svg>                    
-                </label>
             </div>
         </div>
     </main>
-    <footer><p>© 2022 - <a href="https://edniltonmatos.vercel.app/">Ednilton Matos</a></p></footer>
+    <footer>
+        <p>© 2022 - <a href="https://edniltonmatos.vercel.app/">Ednilton Matos</a></p>
+    </footer>
 </body>
+
 </html>
