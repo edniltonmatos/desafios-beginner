@@ -91,9 +91,6 @@ svg{
     background: #130808;
     border: 2px solid #CC1B1B;
 }
-.slider{
-    display: none;
-}
 #contain-check{
     display: flex;
 }
