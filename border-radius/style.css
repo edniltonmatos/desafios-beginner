@@ -86,6 +86,7 @@ svg{
     width: 100%;
     background-color: #CC1B1B;
     border-radius: 1rem;
+    cursor: pointer;
 }
 .slider::-webkit-slider-thumb{
     background: #130808;
@@ -179,7 +180,7 @@ svg{
     background: rgb(11, 6, 6);
 }
 button svg{
-    padding: 4px;
+    padding: 4px 3px 0 3px;
 }
 
 #text-area button:hover{
@@ -214,4 +215,21 @@ footer{
     main{
         padding: 5rem 0rem;
     }
+}
+.slider{
+    display: none;
+}
+
+#svg2{
+    display: none;
+}
+
+button:active #svg{
+    animation-name: animated;
+    animation-duration: 4s;
+}
+
+@keyframes animated{
+    0% {display: none;}
+    100%{display: block;}
 }

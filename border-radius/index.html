@@ -20,21 +20,21 @@
         href="https://raw.githubusercontent.com/edniltonmatos/desafios-codelandia/main/desafio_01/src/images/fivicon.ico"
         type="image/x-icon">
 
-    <!-- Facebook Meta Tags 
+    <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://ednilton-matos-border-radius.vercel.app/>"
     <meta property="og:type" content="website">
     <meta property="og:title" content="Border-radius Previewer | Ednilton Matos">
     <meta property="og:description" content="Uma ferramenta que te ajuda a entender melhor como funciona os valores de raio da borda CSS.">
     <meta property="og:image" content="https://github.com/edniltonmatos/desafios-beginner/blob/main/border-radius/Capa-border-radius.png?raw=true">
 
-     Twitter Meta Tags 
+    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="blog-mu-seven.vercel.app">
     <meta property="twitter:url" content="https://ednilton-matos-border-radius.vercel.app/>"
     <meta name="twitter:title" content="Border-radius Previewer | Ednilton Matos">
     <meta name="twitter:description" content="Uma ferramenta que te ajuda a entender melhor como funciona os valores de raio da borda CSS.">
     <meta name="twitter:image" content="https://github.com/edniltonmatos/desafios-beginner/blob/main/border-radius/Capa-border-radius.png?raw=true">
-    -->
+
 </head>
 
 <body>
@@ -78,8 +78,8 @@
                                 </defs>
                             </svg>
                         </div>
-                        <input value="0" max="250" min="0" type="range">
-                        <input value="0" max="250" min="0" type="range" class="slider">
+                        <input value="0" max="50" min="0" type="range" id="top-left1">
+                        <input value="0" max="50" min="0" type="range" class="slider" id="top-left2">
                     </div>
                     <div class="ajuste">
                         <div>
@@ -96,8 +96,8 @@
                                 </defs>
                             </svg>
                         </div>
-                        <input value="0" max="50" min="0" type="range" id="myRange-1">
-                        <input value="0" max="50" min="0" type="range" class="slider">
+                        <input value="0" max="50" min="0" type="range" id="top-right1">
+                        <input value="0" max="50" min="0" type="range" class="slider" id="top-right2">
                     </div>
                     <div class="ajuste">
                         <div>
@@ -114,8 +114,8 @@
                                 </defs>
                             </svg>
                         </div>
-                        <input value="0" max="250" min="0" type="range">
-                        <input value="0" max="250" min="0" type="range" class="slider">
+                        <input value="0" max="50" min="0" type="range" id="bottom-right1">
+                        <input value="0" max="50" min="0" type="range" class="slider" id="bottom-right2">
                     </div>
                     <div class="ajuste">
                         <div>
@@ -134,22 +134,28 @@
                             </svg>
                         </div>
 
-                        <input value="0" max="250" min="0" type="range">
-                        <input value="0" max="250" min="0" type="range" class="slider">
+                        <input value="0" max="50" min="0" type="range" id="bottom-left1">
+                        <input value="0" max="50" min="0" type="range" class="slider" id="bottom-left2">
                     </div>
                     <label class="container"> 
                         <p>8 bordas</p>
-                        <input type="checkbox">
+                        <input type="checkbox" id="checkbox">
                         <span class="checkmark"></span>
                       </label>
                     <div id="text-area">
                         <div>
-                            <p>border-radius: 0px, 0px, 0px, 0px;</p>
+                            <p id="input">border-radius: 0px, 0px, 0px, 0px;</p>
                         </div>
-                        <Button>
-                            <svg width="18" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M13.125 11.25H7.875C7.66875 11.25 7.5 11.4187 7.5 11.625V12.375C7.5 12.5813 7.66875 12.75 7.875 12.75H13.125C13.3313 12.75 13.5 12.5813 13.5 12.375V11.625C13.5 11.4187 13.3313 11.25 13.125 11.25ZM13.125 15.75H7.875C7.66875 15.75 7.5 15.9187 7.5 16.125V16.875C7.5 17.0813 7.66875 17.25 7.875 17.25H13.125C13.3313 17.25 13.5 17.0813 13.5 16.875V16.125C13.5 15.9187 13.3313 15.75 13.125 15.75ZM5.25 10.875C4.62656 10.875 4.125 11.3766 4.125 12C4.125 12.6234 4.62656 13.125 5.25 13.125C5.87344 13.125 6.375 12.6234 6.375 12C6.375 11.3766 5.87344 10.875 5.25 10.875ZM5.25 15.375C4.62656 15.375 4.125 15.8766 4.125 16.5C4.125 17.1234 4.62656 17.625 5.25 17.625C5.87344 17.625 6.375 17.1234 6.375 16.5C6.375 15.8766 5.87344 15.375 5.25 15.375ZM15.75 3H12C12 1.34531 10.6547 0 9 0C7.34531 0 6 1.34531 6 3H2.25C1.00781 3 0 4.00781 0 5.25V21.75C0 22.9922 1.00781 24 2.25 24H15.75C16.9922 24 18 22.9922 18 21.75V5.25C18 4.00781 16.9922 3 15.75 3ZM9 2.25C9.4125 2.25 9.75 2.5875 9.75 3C9.75 3.4125 9.4125 3.75 9 3.75C8.5875 3.75 8.25 3.4125 8.25 3C8.25 2.5875 8.5875 2.25 9 2.25ZM15.75 21.375C15.75 21.5813 15.5813 21.75 15.375 21.75H2.625C2.41875 21.75 2.25 21.5813 2.25 21.375V5.625C2.25 5.41875 2.41875 5.25 2.625 5.25H4.5V6.75C4.5 7.1625 4.8375 7.5 5.25 7.5H12.75C13.1625 7.5 13.5 7.1625 13.5 6.75V5.25H15.375C15.5813 5.25 15.75 5.41875 15.75 5.625V21.375Z" fill="#D9D9D9"/>
-                                </svg>                                                               
+                        <Button id="btn">
+                            <svg id="svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16 12.9V17.1C16 20.6 14.6 22 11.1 22H6.9C3.4 22 2 20.6 2 17.1V12.9C2 9.4 3.4 8 6.9 8H11.1C14.6 8 16 9.4 16 12.9Z" stroke="#D9D9D9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 6.9V11.1C22 14.6 20.6 16 17.1 16H16V12.9C16 9.4 14.6 8 11.1 8H8V6.9C8 3.4 9.4 2 12.9 2H17.1C20.6 2 22 3.4 22 6.9Z" stroke="#D9D9D9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            <svg id="svg2" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 11.1V6.9C22 3.4 20.6 2 17.1 2H12.9C9.4 2 8 3.4 8 6.9V8H11.1C14.6 8 16 9.4 16 12.9V16H17.1C20.6 16 22 14.6 22 11.1Z" stroke="#57C969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 17.1V12.9C16 9.4 14.6 8 11.1 8H6.9C3.4 8 2 9.4 2 12.9V17.1C2 20.6 3.4 22 6.9 22H11.1C14.6 22 16 20.6 16 17.1Z" stroke="#57C969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M6.08 15L8.03 16.95L11.92 13.05" stroke="#57C969" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>                                
                         </Button> 
                     </div>
                 </div>
