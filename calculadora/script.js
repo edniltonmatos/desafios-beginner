@@ -1,10 +1,11 @@
-const operacao = document.getElementById("demonstrativo")
-const numbers = document.querySelectorAll(".numbers")
-//numbers.forEach(mostrar);
+input = document.getElementById("input")
+numbers = document.querySelectorAll(".numbers")
+let calc = 0
 
-/*function number(item){
-    item.addEventListener("click",function (){
-        operacao.innerHTML = item.innerHTML
+
+numbers.forEach((item,index,arr) => {
+    arr[index].value = index + 1
+    item.addEventListener("click", () => {
+        input.innerHTML = this.value
     })
-}*/
-operacao.innerHTML = numbers.innerHTML
+});

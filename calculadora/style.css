@@ -1,39 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Share+Tech&display=swap');
 *{
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--gray-10);
+    font-family: 'Roboto', sans-serif;
 }
 
+:root{
+    --black: black;
+    --white: white;
+    --gray-100: #2C2121;
+    --gray-90: #483838;
+    --gray-70: #826464;
+    --gray-60: #624B4B;
+    --gray-10: #FBF4F4;
+    --primary-red-70:#FA3434;
+    --hover-red-60:#FA3434;
+}
 body{
-    background-color: #232323;
-    height: 100vh;
-    width: 100vW;
+    background: var(--gray-100);
 }
-div{
-    width: 400px;
-    height: 600px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: #332E33;
-    padding: .5rem;
+main{
+    padding: 5rem 0;
+    margin: 0 1.5rem;
 }
-p{
-    height: 4rem;
-    width: 100%;
-    background-color: #4D454D;
+a{
+    color: var(--primary-red-70 );
+    font-weight: bolder;
 }
-input{
-    width: 100%;
+.operadores{
+    color: var(--primary-red-70);
 }
-ul{
+h1{
+    font-family: 'Share Tech', sans-serif;
+    font-size: 3rem;
+    font-weight: normal;
+}
+#text{
+    padding-bottom: 5rem;
+}
+#text h1{
+    padding-bottom: 1.5rem;
+}
+#text p{
+    padding-bottom: 1rem;
+}
+#conversao-github p{
+    padding: 0;
+}
+#calculadora p{
+    font-family: 'Share Tech', sans-serif;
+}
+span{
+    font-size: 4rem;
+    text-align: right;
+}
+span p {
+    margin-bottom: 1rem;
+}
+#btns{
     display: grid;
-    grid-template: "a b c d" ;
-    gap: 5px;
+    grid-template: 1fr 1fr 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    text-align: center;
 }
-li{
-    list-style: none;
-    background-color: #665C66;
+#btns div{
+    padding: 1.25rem 0;
     cursor: pointer;
+    border-radius: .25rem;
+}
+#btns div p{
+    width: 100%;
+}
+#btns div:active{
+    background: var(--gray-90 );
+}
+#igual{
+    grid-column-end:5;
+    grid-column-start:3;
+    background: var(--primary-red-70);
+}
+footer{
+    text-align: center;
+    background: var(--gray-90);
+    padding: 1rem;
+}
+@media screen and (min-width:1024px){
+    main{
+        width: 100%;
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}
+@media screen and (min-width:850px){
+    #calculadora{
+        width: 100%;
+        max-width: 850px;
+        margin: 0 auto;
+    }
 }

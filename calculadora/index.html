@@ -4,43 +4,115 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./script.js" defer></script>
+
+    <!--CSS links-->
     <link rel="stylesheet" href="./style.css">
-    <title>calculadora</title>
+
+    <!-- HTML Meta Tags -->
+    <title>Calculator App | Ednilton Matos</title>
+    <meta name="description"
+        content="Uma calculadora comum mas eficiente que te ajudara na sua continha rápida">
+    <meta name="keywords"
+        content="HTML, CSS, JavaScript, Calculadora, calculadora, calculadora online, calc, calculator app, ednilton, ednilton matos, desafios desenvolvimento, desafios dev, desafios florinpop">
+    <meta name="author" content="Ednilton Matos">
+    <link rel="shortcut icon"
+        href="https://raw.githubusercontent.com/edniltonmatos/desafios-codelandia/main/desafio_01/src/images/fivicon.ico"
+        type="image/x-icon">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://ednilton-matos-calculator.netlify.app/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Border-radius Previewer | Ednilton Matos">
+    <meta property="og:description" content="Uma ferramenta que te ajuda a entender melhor como funciona os valores de raio da borda CSS.">
+    <meta property="og:image" content="https://ednilton-matos-calculator.netlify.app/imgs/capa-calculator-png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="twitter:domain" content="ednilton-matos-border-radius.netlify.app">
+    <meta property="twitter:url" content="https://ednilton-matos-calculator.netlify.app/">
+    <meta name="twitter:title" content="Border-radius Previewer | Ednilton Matos">
+    <meta name="twitter:description" content="Uma ferramenta que te ajuda a entender melhor como funciona os valores de raio da borda CSS.">
+    <meta name="twitter:image" content="https://ednilton-matos-calculator.netlify.app/imgs/capa-calculator-png">
 </head>
 <body>
-    <h1>Calculadora app - html, css e JavaScript</h1>
-    <p>A calculadora app é uma calculadora comum criada com html, css e java script. Ela te permite fazer operações básicas de soma, subtração, divisão e adição.</p>
-    <p>Esse projeto foi baseado na ideia do repositorio <a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md">App Ideas Collection.</a></p>
-    <div>
-        <p>Quer ver como ficou o código?</p>
-        <p>Qual é lógica por trás dessa calculadora?</p>
-        <p>Acesse o link dessa pagina no github. Calculator App <a href=""></a></p>
-    </div>
-    <div>
-        <p id="demonstrativo"></p>
-        <p id="resolucao"></p>
-        <ul>
-            <li>ac</li>
-            <li>c</li>
-            <li>%</li>
-            <li>/</li>
-            <li class="numbers">9</li>
-            <li class="numbers">8</li>
-            <li class="numbers">7</li>
-            <li>*</li>
-            <li class="numbers">6</li>
-            <li class="numbers">5</li>
-            <li class="numbers">4</li>
-            <li>-</li>
-            <li class="numbers">3</li>
-            <li class="numbers">2</li>
-            <li class="numbers">1</li>
-            <li>+</li>
-            <li class="numbers">0</li>
-            <li>.</li>
-            <li>=</li>
-        </ul>
-    </div>
+    <button>teste</button>
+    <main>
+        <div id="text">
+            <h1>Calculadora app - html, css e JavaScript</h1>
+            <p>A calculadora app é uma calculadora comum criada com html, css e java script. Ela te permite fazer operações básicas de soma, subtração, divisão e adição.</p>
+            <p>Esse projeto foi baseado na ideia do repositorio <a href="https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md">App Ideas Collection.</a></p>
+            <div id="conversao-github">
+                <p>Quer ver como ficou o código?</p>
+                <p>Qual é lógica por trás dessa calculadora?</p>
+                <p>Acesse o link dessa pagina no github. <a href="https://github.com/edniltonmatos/desafios-beginner/tree/main/border-radius">Calculator App</a></p>
+            </div>
+        </div>
+        <div id="calculadora">
+            <span><p id="input">000</p></span>
+            <div id="btns">
+                <div>
+                    <p>+/-</p>
+                </div>
+                <div>
+                    <p>AC</p>
+                </div>
+                <div>
+                    <p>C</p>
+                </div>
+                <div>
+                    <p class="operadores">+</p>
+                </div>
+                <div class="numbers">
+                    <p>7</p>
+                </div>
+                <div class="numbers">
+                    <p>8</p>
+                </div>
+                <div class="numbers">
+                    <p>9</p>
+                </div>
+                <div>
+                    <p class="operadores">-</p>
+                </div>
+                <div class="numbers">
+                    <p>4</p>
+                </div>
+                <div class="numbers">
+                    <p>5</p>
+                </div>
+                <div class="numbers">
+                    <p>6</p>
+                </div>
+                <div>
+                    <p class="operadores">/</p>
+                </div>
+                <div class="numbers">
+                    <p>1</p>
+                </div>
+                <div class="numbers">
+                    <p>2</p>
+                </div>
+                <div class="numbers">
+                    <p>3</p>
+                </div>
+                <div>
+                    <p class="operadores">X</p>
+                </div>
+                <div>
+                    <p>.</p>
+                </div>
+                <div class="numbers">
+                    <p>0</p>
+                </div>
+                <div id="igual">
+                    <p>=</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>© 2022 - <a href="https://edniltonmatos.vercel.app/">Ednilton Matos</a></p>
+    </footer>
+    <script src="./script.js"></script>
 </body>
 </html>
