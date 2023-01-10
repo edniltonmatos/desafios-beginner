@@ -29,7 +29,7 @@ a{
     color: var(--primary-red-70 );
     font-weight: bolder;
 }
-.operadores{
+.operadores p{
     color: var(--primary-red-70);
 }
 h1{
