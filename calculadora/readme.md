@@ -1,16 +1,16 @@
-# Border-radius Previewer
+# Calculadora
 
 **Nível:** 1-Iniciante
 
-![Resultado final do projeto](post.png)
+<!--  ![Resultado final do projeto](post.png) -->
 
-> desafio 02 do repositório [app-ideias](https://github.com/florinpop17/app-ideas). Um conversor de border radius que te mostra de forma prática, como funciona a propriedade css "border-raius".
+> desafio 03 do repositório [app-ideias](https://github.com/florinpop17/app-ideas). Uma calculadora simples. 
 
-Ideia por: [florinpop](https://github.com/edniltonmatos/app-ideas/blob/master/Projects/1-Beginner/Border-Radius-Previewer.md)
+Ideia por: [florinpop](https://github.com/edniltonmatos/app-ideas/blob/master/Projects/1-Beginner/Calculator-App.md)
 
-demo: [BorderRadius](https://ednilton-matos-border-radius.netlify.app/)
+<!-- demo: [BorderRadius](https://ednilton-matos-border-radius.netlify.app/)-->
 
-Design: [Figma](https://www.figma.com/file/aMf4Rmvu2o4rK7PNddBWKW/Border-Radius?node-id=6%3A4&t=kC8WYzVq5GAQuwy7-0)
+Design: [Figma](https://www.figma.com/file/n4sTzI4h6aEeWoU3TaAUWJ/Beginner-projecs?node-id=1%3A5&t=FfXYpTEmlkwLe6Eh-1)
 
 ## 💼 Como foi feito
 
@@ -49,4 +49,4 @@ Design: [Figma](https://www.figma.com/file/aMf4Rmvu2o4rK7PNddBWKW/Border-Radius?
 
 Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
 
-[⬆ Voltar ao topo](#Border-radiusPreviewer)<br>
+[⬆ Voltar ao topo](#Calculadora)<br>
