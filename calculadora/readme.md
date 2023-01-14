@@ -22,31 +22,31 @@ Design: [Figma](https://www.figma.com/file/n4sTzI4h6aEeWoU3TaAUWJ/Beginner-proje
 
 ## Histórias de usuários
 
-- [] O usuário pode ver uma tela mostrando o número atual digitado ou o
+- [ ] O usuário pode ver uma tela mostrando o número atual digitado ou o
 resultado da última operação.
-- [] O usuário pode ver um teclado de entrada contendo botões para os dígitos 0-9,
+- [ ] O usuário pode ver um teclado de entrada contendo botões para os dígitos 0-9,
 operações - '+', '-', '/' e '=', um botão 'C' (para limpar) e um 'AC'
 botão (para limpar tudo).
-- [] O usuário pode inserir números como sequências de até 8 dígitos clicando em
+- [ ] O usuário pode inserir números como sequências de até 8 dígitos clicando em
 dígitos no teclado de entrada. A entrada de qualquer dígito maior que 8 será ignorada.
-- [] O usuário pode clicar em um botão de operação para exibir o resultado dessa
+- [ ] O usuário pode clicar em um botão de operação para exibir o resultado dessa
 operação em:
     - o resultado da operação anterior e o último número digitado OU
     - os dois últimos números inseridos OU
     - o último número digitado
-- [] O usuário pode clicar no botão 'C' para limpar o último número ou o último
+- [ ] O usuário pode clicar no botão 'C' para limpar o último número ou o último
 Operação. Se a última entrada do usuário foi uma operação, a exibição será
 atualizado para o valor que o precedeu.
-- [] O usuário pode clicar no botão 'AC' para limpar todas as áreas de trabalho internas e
+- [ ] O usuário pode clicar no botão 'AC' para limpar todas as áreas de trabalho internas e
 para definir o visor para 0.
-- [] O usuário pode ver 'ERR' exibido se qualquer operação exceder o
+- [ ] O usuário pode ver 'ERR' exibido se qualquer operação exceder o
 Máximo de 8 dígitos.
 
 ## Recursos bônus
 
-- [] O usuário pode clicar no botão '+/-' para alterar o sinal do número que está
+- [ ] O usuário pode clicar no botão '+/-' para alterar o sinal do número que está
 atualmente exibido.
-- [] O usuário pode ver um botão de ponto decimal ('.') no teclado de entrada para esse
+- [ ] O usuário pode ver um botão de ponto decimal ('.') no teclado de entrada para esse
 permite que números de ponto flutuante de até 3 lugares sejam inseridos e operações para
 ser executada com o número máximo de casas decimais inseridas para qualquer
 número.
