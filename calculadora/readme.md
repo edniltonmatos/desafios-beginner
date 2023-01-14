@@ -20,15 +20,36 @@ Design: [Figma](https://www.figma.com/file/n4sTzI4h6aEeWoU3TaAUWJ/Beginner-proje
 - CSS 
 - JavaScript
 
-### Histórias de usuários
+## Histórias de usuários
 
-- [x] O usuário pode ver uma caixa que tem uma propriedade `border-radius` aplicada a ela
-- [x] O usuário pode alterar os 4 valores de `border-radius` que são aplicados à caixa (superior esquerdo, superior direito, inferior esquerdo, inferior direito)
-- [x] O usuário pode copiar o CSS resultante para a área de transferência
+- [] O usuário pode ver uma tela mostrando o número atual digitado ou o
+resultado da última operação.
+- [] O usuário pode ver um teclado de entrada contendo botões para os dígitos 0-9,
+operações - '+', '-', '/' e '=', um botão 'C' (para limpar) e um 'AC'
+botão (para limpar tudo).
+- [] O usuário pode inserir números como sequências de até 8 dígitos clicando em
+dígitos no teclado de entrada. A entrada de qualquer dígito maior que 8 será ignorada.
+- [] O usuário pode clicar em um botão de operação para exibir o resultado dessa
+operação em:
+    - o resultado da operação anterior e o último número digitado OU
+    - os dois últimos números inseridos OU
+    - o último número digitado
+- [] O usuário pode clicar no botão 'C' para limpar o último número ou o último
+Operação. Se a última entrada do usuário foi uma operação, a exibição será
+atualizado para o valor que o precedeu.
+- [] O usuário pode clicar no botão 'AC' para limpar todas as áreas de trabalho internas e
+para definir o visor para 0.
+- [] O usuário pode ver 'ERR' exibido se qualquer operação exceder o
+Máximo de 8 dígitos.
 
-### Recursos bônus
+## Recursos bônus
 
-- [x] O usuário pode alterar todos os 8 valores possíveis do raio da borda para criar uma forma complexa
+- [] O usuário pode clicar no botão '+/-' para alterar o sinal do número que está
+atualmente exibido.
+- [] O usuário pode ver um botão de ponto decimal ('.') no teclado de entrada para esse
+permite que números de ponto flutuante de até 3 lugares sejam inseridos e operações para
+ser executada com o número máximo de casas decimais inseridas para qualquer
+número.
 
 ## 🦄 Autor
 
